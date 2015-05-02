@@ -14,6 +14,7 @@
 		3B684F451AF4793900993D4E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B684F441AF4793900993D4E /* Images.xcassets */; };
 		3B684F481AF4793900993D4E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B684F461AF4793900993D4E /* LaunchScreen.xib */; };
 		3B684F541AF4793900993D4E /* GitTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B684F531AF4793900993D4E /* GitTestTests.m */; };
+		3B684F5F1AF47BC200993D4E /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B684F5E1AF47BC200993D4E /* Test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		3B684F4D1AF4793900993D4E /* GitTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B684F521AF4793900993D4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B684F531AF4793900993D4E /* GitTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitTestTests.m; sourceTree = "<group>"; };
+		3B684F5D1AF47BC200993D4E /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		3B684F5E1AF47BC200993D4E /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 		3B684F2B1AF4793900993D4E = {
 			isa = PBXGroup;
 			children = (
+				3B684F5D1AF47BC200993D4E /* Test.h */,
+				3B684F5E1AF47BC200993D4E /* Test.m */,
 				3B684F361AF4793900993D4E /* GitTest */,
 				3B684F501AF4793900993D4E /* GitTestTests */,
 				3B684F351AF4793900993D4E /* Products */,
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B684F401AF4793900993D4E /* ViewController.m in Sources */,
+				3B684F5F1AF47BC200993D4E /* Test.m in Sources */,
 				3B684F3D1AF4793900993D4E /* AppDelegate.m in Sources */,
 				3B684F3A1AF4793900993D4E /* main.m in Sources */,
 			);
